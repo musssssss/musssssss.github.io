@@ -1,0 +1,75 @@
+.cards-section {
+    padding: 50px 0;
+}
+
+.cards-title, .cards-desc {
+    color: tomato;
+    text-align: center;
+    font-family: 'Mate SC', serif;
+    font-family: 'Merriweather', serif;
+}
+
+
+.cards-title {
+    font-size: 28px; /* Побольше размер */
+    font-weight: bold; /* Жирные */
+}
+
+.card {
+    background: whitesmoke;
+    width: 25%;
+    padding: 25px;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: 0px 2px 7px 0px #fac57d; /* Тени */
+}
+
+.card-desc {
+    color: #618101;
+    font-size: 25px;
+    font-family: 'Mate SC', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Mate SC', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Odibee Sans', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 18px; 
+}
+.card-buttom {
+   text-align: center;
+   background: tomato;
+   padding: 10px 70 px;
+   border-radius: 10px;
+}
+.card-title {
+    color: #fac57d;
+    font-size: 26px; 
+    margin-bottom: 10px;
+    font-family: 'Mate SC', serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
+}
+.card-buttom {
+    cursor: pointed;
+}
+.card:hover {
+    box-shadow: 0px 10px 37px 0px #fac57d;
+}
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.main {
+    background-color: whitesmoke;
+}
